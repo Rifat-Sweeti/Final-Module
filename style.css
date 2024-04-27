@@ -1,0 +1,24 @@
+body{ 
+    background-color: linear-gradient(#FFEFBA, #FFFFFF);
+    width: 100%;
+    height: 500px;
+}
+
+.but { 
+    background-image: linear-gradient(#FFE259, #FFA751);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-left: 750px;
+    color: #fff;
+}
+
+@media screen and (min-width: 263px) and (max-width: 1000px) {
+    .but {
+        margin: auto;
+    }
+}
+
+.btn-warning {
+    color: #fff;
+    border-radius: 25px;
+}
